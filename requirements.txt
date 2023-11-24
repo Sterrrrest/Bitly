@@ -3,6 +3,4 @@ charset-normalizer==3.3.2
 idna==3.4
 python-dotenv==1.0.0
 requests==2.31.0
-schedule==1.1.0
-tele-bot==0.0.1
 urllib3==2.1.0
