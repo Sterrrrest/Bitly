@@ -1,7 +1,12 @@
 Описание
 =
-
 Данный проект предназначен для сокращения ссылок
+
+Установка
+=
+
+$ python3 -m pip install requests
+$ python3 -m pip install argparse
 
 Требования к окружению
 =

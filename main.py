@@ -1,21 +1,11 @@
 import requests
 
 
-import os
-
-
-from dotenv import load_dotenv, find_dotenv
-
-
 import argparse
 
 
-parser = argparse.ArgumentParser(description='cut links')
-parser.add_argument('link', help='Ссылка')
-args = parser.parse_args()
-print(args.link)
-link = args.link
-
+import os
+from dotenv import load_dotenv, find_dotenv
 
 def shorten_link(token, link):  
   url = 'https://api-ssl.bitly.com/v4/shorten'
@@ -44,19 +34,21 @@ def is_bitlink(token,link):
         
  
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='cut links')
+    parser.add_argument('link', help='Ссылка')
+    args = parser.parse_args()
+    link = args.link
     load_dotenv(find_dotenv())
     token = os.environ['BITLY_TOKEN']
-    # print('Insert the link')
-    # link = input()
-    if is_bitlink(token, link):
-      try:
-        print('Количество кликов:', count_clicks(token, link))
-      except requests.exceptions.HTTPError:
-        print("Количество кликов недоступно: неверная ссылка")
-
-
     if not is_bitlink(token, link):
-      try:
-        print('Битлинк', shorten_link(token, link))
-      except requests.exceptions.HTTPError:
-        print('Битлинк: Неверная ссылка')
+        try:
+            print('Битлинк', shorten_link(token, link))
+        except requests.exceptions.HTTPError:
+            print('Битлинк: Неверная ссылка')
+    else:
+        try:
+            print('Количество кликов:', count_clicks(token, link))
+        except requests.exceptions.HTTPError:
+            print("Количество кликов недоступно: неверная ссылка")
+
+
