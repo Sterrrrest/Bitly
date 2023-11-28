@@ -23,7 +23,7 @@ $ python3 main.py bit.ly/3MUIV8U
  % python3 main.py bit.ly/3MUIV8U
  
 Количество кликов: 0
-![Screenshot](https://drive.google.com/drive/u/0/my-drive)
+![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
 Примеры использования программного API
 =
