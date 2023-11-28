@@ -8,20 +8,29 @@
 ```$ python3 -m pip install requests```
 ```$ python3 -m pip install argparse```
 
+
+```$ python3 -m pip install python-dotenv```
+```from dotenv import load_dotenv, find_dotenv```
+```load_dotenv()```
+
 Требования к окружению
 =
-Python 3.11.1 
+Python 3.*
 
-Как установить
+Инструкция
 =
-```$ python3 main.py bit.ly/3MUIV8U```
+
+Если введенная ссылка битлинк, то на выходе будет количество кликов по ней.
+Если не битлинк, то программа преобразует ее в битлинк
 
 Примеры запуска скриптов
 =
 
 ```$ python3 main.py bit.ly/3MUIV8U```
+
 Количество кликов: **0**
 
-![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
+```$ python3 main.py https://dvmn.org/modules/web-api/lesson/migration-from-website/#5```
 
+![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
