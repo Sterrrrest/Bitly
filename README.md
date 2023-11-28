@@ -21,6 +21,7 @@
 Требования к окружению
 =
 Python 3.*
+В переменную ```token``` надо положить Ключ API из кабинета ![bitly](app.bitly.com/)
 
 Инструкция
 =
@@ -31,6 +32,8 @@ Python 3.*
 Примеры запуска скриптов
 =
 
+Если указанная ссылка уже сокращена(bitlink):
+
 ```$ python3 main.py bit.ly/3MUIV8U```
 
 Количество кликов: **0**
@@ -39,3 +42,8 @@ Python 3.*
 
 ![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
+Если не Bitlink:
+
+```%  python3 main.py https://www.tk-drive.com/tables```
+
+Битлинк bit.ly/3sUmw4U
