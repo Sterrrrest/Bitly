@@ -5,7 +5,8 @@
 Установка
 =
 
-```$ python3 -m pip install requests```
+```$ python3 -m pip install requests```. 
+
 ```$ python3 -m pip install argparse```
 
 Настройка окружения
@@ -13,16 +14,18 @@
 
 Для работы с bitly необходимо установить токен авторизации:
 
-```$ python3 -m pip install python-dotenv```
+```$ python3 -m pip install python-dotenv```. 
 
-```from dotenv import load_dotenv, find_dotenv```
+```from dotenv import load_dotenv, find_dotenv```. 
+
 ```load_dotenv()```
 
 Требования к окружению
 =
 Python 3.*
 
-Ключ API. В переменную ```token``` надо положить Ключ API из кабинета  ![Как получить Токен](https://dev.bitly.com/)
+Ключ API. В переменную ```token``` надо положить Ключ API из кабинета  ![Как получить Токен](https://dev.bitly.com/). 
+
 GENERIC ACCESS TOKEN  - нужный тип токена
 
 Инструкция
