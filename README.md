@@ -21,7 +21,9 @@
 Требования к окружению
 =
 Python 3.*
-В переменную ```token``` надо положить Ключ API из кабинета ![bitly](app.bitly.com/)
+
+Ключ API. В переменную ```token``` надо положить Ключ API из кабинета  ![Как получить Токен](https://dev.bitly.com/)
+GENERIC ACCESS TOKEN  - нужный тип токена
 
 Инструкция
 =
@@ -33,6 +35,7 @@ Python 3.*
 =
 
 Если указанная ссылка уже сокращена(bitlink):
+-
 
 ```$ python3 main.py bit.ly/3MUIV8U```
 
@@ -43,6 +46,7 @@ Python 3.*
 ![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
 Если не Bitlink:
+-
 
 ```%  python3 main.py https://www.tk-drive.com/tables```
 
