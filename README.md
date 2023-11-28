@@ -20,8 +20,10 @@ $ python3 main.py bit.ly/3MUIV8U
 
 Примеры запуска скриптов
 =
-
-![Screenshot 2023-11-28 at 12.35.58](../Desktop/Screenshot 2023-11-28 at 12.35.58.png)
+ % python3 main.py bit.ly/3MUIV8U
+ 
+Количество кликов: 0
+![Screenshot](https://drive.google.com/drive/u/0/my-drive)
 
 Примеры использования программного API
 =
