@@ -40,15 +40,16 @@ if __name__ == "__main__":
     link = args.link
     load_dotenv(find_dotenv())
     token = os.environ['BITLY_TOKEN']
-    if not is_bitlink(token, link):
-        try:
-            print('Битлинк', shorten_link(token, link))
-        except requests.exceptions.HTTPError:
-            print('Битлинк: Неверная ссылка')
-    else:
+    if is_bitlink(token, link):
         try:
             print('Количество кликов:', count_clicks(token, link))
         except requests.exceptions.HTTPError:
             print("Количество кликов недоступно: неверная ссылка")
+    else:
+        try:
+            print('Битлинк', shorten_link(token, link))
+        except requests.exceptions.HTTPError:
+            print('Битлинк: Неверная ссылка')
+
 
 
