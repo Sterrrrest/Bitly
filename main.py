@@ -1,13 +1,10 @@
 import requests
-
-
 import argparse
-
-
 import os
 from dotenv import load_dotenv, find_dotenv
 
-def shorten_link(token, link):  
+
+def shorten_link(token, link):
   url = 'https://api-ssl.bitly.com/v4/shorten'
   headers = {'Authorization': token}
   payLoad = {'long_url': link}
@@ -15,7 +12,6 @@ def shorten_link(token, link):
   response.raise_for_status()
   bitlink = response.json()['id']
   return bitlink
-  
 
 def count_clicks(token, bitlink):  
     url = 'https://api-ssl.bitly.com/v4/bitlinks/{}/clicks/summary'.format(bitlink)
