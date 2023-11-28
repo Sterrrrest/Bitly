@@ -41,8 +41,6 @@ GENERIC ACCESS TOKEN  - нужный тип токена
 
 Количество кликов: **0**
 
-```$ python3 main.py https://dvmn.org/modules/web-api/lesson/migration-from-website/#5```
-
 ![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
 Если не Bitlink:
