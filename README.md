@@ -8,8 +8,13 @@
 ```$ python3 -m pip install requests```
 ```$ python3 -m pip install argparse```
 
+Настройка окружения
+=
+
+Для работы с bitly необходимо установить токен авторизации:
 
 ```$ python3 -m pip install python-dotenv```
+
 ```from dotenv import load_dotenv, find_dotenv```
 ```load_dotenv()```
 
