@@ -30,7 +30,7 @@ GENERIC ACCESS TOKEN  - нужный тип токена
 Примеры запуска скриптов
 =
 
-Если указанная ссылка уже сокращена(bitlink):
+Если указанная ссылка уже сокращена(bitlink)
 -
 
 ```$ python3 main.py bit.ly/3MUIV8U```
@@ -39,7 +39,7 @@ GENERIC ACCESS TOKEN  - нужный тип токена
 
 ![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
-Если не Bitlink:
+Если не Bitlink
 -
 
 ```%  python3 main.py https://www.tk-drive.com/tables```
