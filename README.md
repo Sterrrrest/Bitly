@@ -7,17 +7,11 @@
 
 ```pip install -r requirements.txt```
 
-Настройка окружения
+Переменные окружения
 =
+Для настройки переменных окружения нужно создать файл .env указать там переменную окружения с токеном ```BITLY_TOKEN=токен```
 
-Для работы с bitly необходимо установить токен авторизации
-
-
-Требования к окружению
-=
-Python 3.*
-
-Ключ API. В переменную ```token``` надо положить Ключ API из кабинета  ![Как получить Токен](https://dev.bitly.com/)
+Ключ API.  Ключ API можно получить в кабинете  ![Как получить Токен](https://dev.bitly.com/)
 
 GENERIC ACCESS TOKEN  - нужный тип токена
 
@@ -36,8 +30,6 @@ GENERIC ACCESS TOKEN  - нужный тип токена
 ```$ python3 main.py bit.ly/3MUIV8U```
 
 Количество кликов: **0**
-
-![Screenshot](https://drive.google.com/file/d/10cKe_zAHuwjSpoppwgkjp_ruwTpy7TED/view?usp=sharing)
 
 Если не Bitlink
 -
